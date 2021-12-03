@@ -32,7 +32,7 @@ function LoadParticles() {
   {
   "particles": {
     "number": {
-      "value": 220,
+      "value": 150,
       "density": {
         "enable": true,
         "value_area": 800
@@ -78,7 +78,7 @@ function LoadParticles() {
     },
     "line_linked": {
       "enable": true,
-      "distance": 100,
+      "distance": 150,
       "color": "#00ffff",
       "opacity": 0.15,
       "width": 14

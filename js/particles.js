@@ -360,10 +360,8 @@ var pJS = function (tag_id, params) {
     } else*/
 
     this.xr = 0
-    this.xg = 70 + (Math.random() * 70);
-    this.xb = 70 + (Math.random() * 70);
-
-    this.xa = Math.random() / 2;
+    this.xg = 130 + (Math.random() * 130);
+    this.xb = 130 + (Math.random() * 130);
 
     if (this.id == 0) {
       this.color = {};
@@ -375,7 +373,7 @@ var pJS = function (tag_id, params) {
         b: this.xb
       }
 
-      this.max_opa = 0.5;
+      this.max_opa = Math.random() / 2;
       this.opacity = 0.0;
 
       if (Math.random() < 0.25) {
@@ -402,6 +400,10 @@ var pJS = function (tag_id, params) {
       this.vx = velbase.x + Math.random() - 0.5;
       this.vy = velbase.y + Math.random() - 0.5;
     }
+
+    //Reducing Initial Velocity
+    this.vx /= 2;
+    this.vy /= 2;
 
     // var theta = 2.0 * Math.PI * Math.random();
     // this.vx = Math.cos(theta);
@@ -741,7 +743,7 @@ var pJS = function (tag_id, params) {
     }
 
     //blur
-    processCanvasRGB(pJS.canvas.ctx.canvas, 0, 0, pJS.canvas.w, pJS.canvas.h, 20);
+    //processCanvasRGB(pJS.canvas.ctx.canvas, 0, 0, pJS.canvas.w, pJS.canvas.h, 20);
     
 
   };
@@ -806,7 +808,7 @@ var pJS = function (tag_id, params) {
       var col_r = (p1.xr + p2.xr);
       var col_g = (p1.xg + p2.xg);
       var col_b = (p1.xb + p2.xb);
-      var col_a = (0.5 - (dist / 200));
+      var col_a = (0.5 - (dist / 300));
 
       //Handle walls
       if (p1.x < 20) col_a -= (20 - p1.x) / 20; else

@@ -48,6 +48,9 @@ body {
 	width:50%;
 	z-index: -9;
 	max-width: 752px;
+
+	filter: blur(12px);
+	-webkit-filter: blur(12px);
 }
 
 .panelMain { 
