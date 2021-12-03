@@ -10,7 +10,7 @@ body {
 	margin:0px;
 	padding:0px;
 	width: 100%;
-	min-width: 500px;
+	min-width: 300px;
 	text-align: center;
 
 	text-shadow: 1px 1px 2px #000000b3;
@@ -237,6 +237,7 @@ position: absolute;
 
 .panelRightContent {
 	
+	min-height: 300px;
 	padding: 30px;
 
 	  background: linear-gradient(to right, rgb(00,90,115), rgb(30,00,65));
@@ -343,6 +344,7 @@ position: absolute;
 	margin-bottom: 5px;
 	font-weight: bold;
 	color: #0ce;
+	white-space: nowrap;
 }
 
 .hexContentBody {
@@ -354,10 +356,95 @@ position: absolute;
 	user-select: text; 
 }
 
+@media only screen and (max-width: 400px) {
+	body {
+		font-size: 12px;
+	}
+	.boxTitle {
+		font-size: 18px;
+	}
+	.hexContentTitle {
+		font-size: 16px;
+	}
+	.textTime {
+		right: 20px;
+		font-size: 16px;
+	}
+    .textTitle {
+		right: 20px;
+        font-size:44px;
+    }
+	.textDodge {
+		right: 20px;
+        font-size:44px;
+    }
+	.textSubt {
+		right: 20px;
+		font-size:20px;
+	}
+	.textSubtDodge {
+		right: 20px;
+		font-size:20px;
+	}
+	.panelLeftTitle {
+		margin: 20px;
+	}
+	.panelRightContent {
+		padding: 10px;
+	}
+	.hexContainer {
+		min-width: 200px;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+	body {
+		font-size: 14px;
+	}
+	.boxTitle {
+		font-size: 22px;
+	}
+	.hexContentTitle {
+		font-size: 18px;
+	}
+	.textTime {
+		right: 30px;
+		font-size: 18px;
+	}
+    .textTitle {
+		right: 30px;
+        font-size:49px;
+    }
+	.textDodge {
+		right: 30px;
+        font-size:49px;
+    }
+	.textSubt {
+		right: 30px;
+		font-size:26px;
+	}
+	.textSubtDodge {
+		right: 30px;
+		font-size:26px;
+	}
+	.panelLeftTitle {
+		margin: 30px;
+	}
+	.panelRightContent {
+		padding: 20px;
+	}
+	.hexContainer {
+		min-width: 250px;
+	}
+}
+
 @media only screen and (max-width: 680px){
     .leftSideContainer {
         display: none;
     }
+	.hexContainer {
+		width: 100%;
+	}
 }
 
 @media only screen and (min-width: 990px) and (max-width: 1350px){
