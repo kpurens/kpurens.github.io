@@ -379,12 +379,14 @@ position: absolute;
         font-size:44px;
     }
 	.textSubt {
-		right: 20px;
-		font-size:20px;
+		right: 26px;
+		font-size:26px;
+		color: #078;
+		-webkit-text-fill-color: #078;
 	}
 	.textSubtDodge {
-		right: 20px;
-		font-size:20px;
+		right: 26px;
+		font-size:26px;
 	}
 	.panelLeftTitle {
 		margin: 20px;
