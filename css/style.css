@@ -1,0 +1,380 @@
+@font-face {
+    font-family: "CustomFontTitle";
+    src: url("Comfortaa.ttf");
+}
+
+body {
+	font-family: "CustomFontTitle";
+	background-color: #000000;
+	color: #33ddff;
+	margin:0px;
+	padding:0px;
+	width: 100%;
+	min-width: 500px;
+	text-align: center;
+
+	text-shadow: 1px 1px 2px #000000b3;
+
+	-webkit-user-select: none; 
+  -moz-user-select: none;  
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.bodyCenter {
+	position:relative;
+	max-width: 1504px;
+	margin: 0px auto;
+
+	-webkit-box-shadow: 50px 0px 100px rgb(30,0,65), -50px 0px 100px rgb(30,00,65);
+    -moz-box-shadow: 50px 0px 100px rgb(30,0,65), -50px 0px 100px rgb(30,00,65);
+    box-shadow: 50px 0px 100px rgb(30,0,65), -50px 0px 100px rgb(30,00,65);
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+#particles-js-canvas-tag {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width:50%;
+	z-index: -9;
+	max-width: 752px;
+}
+
+.panelMain { 
+	display: flex;
+	margin-top:00px;
+	border-bottom: 4px dashed #0ce;
+}
+
+.panelLeft {
+	background-color: transparent;
+	position:relative;
+	width:50%;
+	text-align:right;
+}
+
+.panelRight {
+	background-color: #000;
+	position:relative;
+	width:50%;
+	padding:0px;
+	text-align:left;
+}
+
+.panelLeftTitle {
+	position:relative;
+	background: rgba(0,0,0,0.5);
+
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,0.7);
+	box-shadow: 0 0 20px rgba(0,0,0,0.7);
+	
+	background-image: linear-gradient(to right, rgb(0 10 35 / 73%), rgb(0 208 255 / 15%));
+	background-image: -webkit-linear-gradient(to right, rgb(0 10 35 / 73%), rgb(0 208 255 / 15%));
+	
+	border:0px black;
+	border-radius: 30px;
+	height:150px;
+	text-align: left;
+	padding:40px;
+	margin:40px;
+}
+
+.panelImageRow {
+	white-space: nowrap;
+	display: flex;
+	margin: auto auto;
+	max-width: 752px;
+}
+
+.textTitle {
+	position: absolute;
+    right: 40px;
+    top: 40px;
+    font-family: "CustomFontTitle";
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0px;
+    text-transform: none;
+    text-shadow: 2px 2px 5px rgb(0 208 215), 3px 3px 9px rgb(0 0 0), 3px 3px 15px rgb(0 0 0);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    background: linear-gradient( 0deg, #8b03d2, #a70074 80%);
+	background: -webkit-linear-gradient( 0deg, #8b03d2, #a70074 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.textDodge {
+position: absolute;
+    right: 40px;
+    top: 40px;
+    font-family: "CustomFontTitle";
+    font-size: 69px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0px;
+    text-transform: none;
+    text-shadow: 0px 0px 5px rgba(0, 112, 255, 0.7), 0px 0px 13px rgba(0, 112, 255, 0.7);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+
+	background: linear-gradient(359deg, #ff0000, #003d42 80%);
+    background: -webkit-linear-gradient(359deg, #ff0000, #003d42 80%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mix-blend-mode: color-dodge;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.textSubt {
+	position: absolute;
+    right: 40px;
+    top: 120px;
+    font-family: "CustomFontTitle";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0px;
+    text-transform: none;
+    text-shadow: 1px 1px 3px rgb(0 228 255), 2px 2px 6px rgb(0 0 0), 3px 3px 12px rgb(0 0 0);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+	background: linear-gradient( 0deg, #8b03d2, #a70074 80%);
+    background: -webkit-linear-gradient( 0deg, #8b03d2, #a70074 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	text-align: right;
+}
+
+.textSubtDodge {
+	position: absolute;
+    right: 40px;
+    top: 120px;
+    font-family: "CustomFontTitle";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0px;
+    text-transform: none;
+    text-shadow: 0px 0px 4px rgba(0, 112, 255, 1), 0px 0px 12px rgba(0, 112, 255, 1);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+
+	background: linear-gradient( 359deg, #ff0000, #005566 50%);
+    background: -webkit-linear-gradient( 359deg, #ff0000, #005566 50%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mix-blend-mode: color-dodge;
+	text-align: right;
+}
+
+.textTime {
+	position: absolute;
+	right: 40px;
+	left: 0px;
+	top: 154px;
+	font-size:20px;
+	text-align:right;
+	/*font-style: italic;*/
+	color:#0df;
+	text-shadow: 1px 1px 4px rgb(0 0 0 / 92%), 1px 1px 3px blue;
+}
+
+.leftSideContainer {
+	position:absolute;
+	height: 170px;
+	width: 170px;
+	left: 30px;
+	top:30px;
+}
+
+.leftSideImage {
+	height: 100%;
+	width: 100%;
+	border-radius: 20px;
+	box-shadow:0px 0px 30px 0 #000000;
+}
+
+.leftSideShadow {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 0px 20px 0 #000000;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+}
+
+.rightSideImage{
+	max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+}
+
+.panelRightContent {
+	
+	padding: 30px;
+
+	  background: linear-gradient(to right, rgb(00,90,115), rgb(30,00,65));
+	  background: -webkit-linear-gradient(to right, rgb(00,90,115), rgb(30,00,65));
+
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+
+	  -webkit-box-shadow: inset 0 0 30px #000;
+    -moz-box-shadow: inset 0 0 30px #000;
+    box-shadow: inset 0 0 30px #000;
+}
+
+.boxRight { 
+	
+	padding:20px;
+	border-radius:20px;
+	
+		box-shadow: 0 0 15px rgba(0,0,0,0.7);
+		background-color: #00253596;
+
+	/*
+	background-image: linear-gradient(to right, #003546, #001525);
+	*/
+}
+
+#boxRightMargin {
+	margin-bottom:30px;
+}
+
+.boxTitle {
+	font-size: 25px;
+	padding-bottom:10px;
+	border-bottom: 2px dashed #0ce;
+	text-shadow: 1px 1px 5px black;
+	color: #0ce;
+}
+
+.boxContent {
+	line-height: 200%;
+
+
+	-webkit-user-select: text;  
+  -moz-user-select: text;
+  -ms-user-select: text; 
+  user-select: text; 
+}
+
+.feature-icon {
+	float:left;
+}
+
+.hexContainer {
+	line-height: normal;
+	position: relative;
+	display: inline-block;
+	width: calc(50% - 11px);
+	background-image: linear-gradient(to left, #00354699, #00152599);
+	background-image: -webkit-linear-gradient(to left, #00354699, #00152599);
+	border-radius:20px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.7);
+	margin-top:15px;
+	min-width: 298px;
+}
+
+.hexIconContainer {
+	height:100px;
+	position: relative;
+	display: inline-block;
+	vertical-align:middle;
+}
+
+.hexIconBg {
+	
+}
+
+.hexIcon {
+	position:absolute;
+	width: 54px;
+	height: 54px;
+	left: 23px;
+	top: 22px;
+}
+
+.hexContent {
+	display: inline-block;
+	position: absolute;
+	top:20px;
+	width: calc(100% - 120px);
+
+	-webkit-user-select: none; 
+	-moz-user-select: none;  
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.hexContentTitle {
+	font-size: 20px;
+	text-shadow: 1px 1px 3px rgb(0 0 0 / 72%);
+	text-transform: capitalize;
+	border-bottom: 1px dashed;
+	margin-bottom: 5px;
+	font-weight: bold;
+	color: #0ce;
+}
+
+.hexContentBody {
+	line-height: normal;
+
+	-webkit-user-select: text;  
+	-moz-user-select: text;
+	-ms-user-select: text; 
+	user-select: text; 
+}
+
+@media only screen and (max-width: 680px){
+    .leftSideContainer {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1350px){
+    .leftSideContainer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:990px) {
+	.panelMain { 
+		display: block;
+	}
+	.panelLeft {
+		width: 100%;
+	}
+	.panelRight {
+		width: 100%;
+	}
+	#particles-js-canvas-tag {
+		width: 100%;
+		max-width: 990px;
+	}
+}
