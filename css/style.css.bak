@@ -275,7 +275,7 @@ position: absolute;
 	padding-bottom:10px;
 	border-bottom: 2px dashed #0ce;
 	text-shadow: 1px 1px 5px black;
-	color: #2ce2ff;
+	color: #45e5ff;
 }
 
 .boxContent {
