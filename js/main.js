@@ -32,7 +32,7 @@ function LoadParticles() {
   {
   "particles": {
     "number": {
-      "value": 150,
+      "value": 200,
       "density": {
         "enable": true,
         "value_area": 800
@@ -45,7 +45,7 @@ function LoadParticles() {
       "type": "circle",
       "stroke": {
         "width": 0,
-        "color": "#00eeee"
+        "color": "#000000"
       },
       "polygon": {
         "nb_sides": 5
@@ -67,7 +67,7 @@ function LoadParticles() {
       }
     },
     "size": {
-      "value": 6,
+      "value": 3,
       "random": true,
       "anim": {
         "enable": false,
@@ -79,13 +79,13 @@ function LoadParticles() {
     "line_linked": {
       "enable": true,
       "distance": 150,
-      "color": "#00ffff",
+      "color": "#000000",
       "opacity": 0.15,
-      "width": 14
+      "width": 4
     },
     "move": {
       "enable": true,
-      "speed": 0.3,
+      "speed": 0.1,
       "direction": "none",
       "random": false,
       "straight": false,

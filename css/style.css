@@ -5,15 +5,22 @@
 
 body {
 	font-family: "CustomFontTitle";
-	background-color: #000000;
-	color: #33ddff;
+	
+	/*
+	background: linear-gradient( 90deg, #e6e6e6, #eff 50%);
+	*/
+	
+	 background-image: linear-gradient(to right, #f0f0f0, #f1f2f4, #f1f5f8, #f0f8fc, #effbfe, #effbfe, #effbfe, #effbfe, #f0f8fc, #f1f5f8, #f1f2f4, #f0f0f0);
+	
+	/*color: #33ddff;*/
+	color:#003552;
 	margin:0px;
 	padding:0px;
 	width: 100%;
 	min-width: 300px;
 	text-align: center;
 
-	text-shadow: 1px 1px 2px #000000b3;
+	/*text-shadow: 1px 1px 2px #000000b3;*/
 
 	-webkit-user-select: none; 
   -moz-user-select: none;  
@@ -25,16 +32,17 @@ body {
 	position:relative;
 	max-width: 1504px;
 	margin: 0px auto;
-
+/*
 	-webkit-box-shadow: 50px 0px 100px rgb(30,0,65), -50px 0px 100px rgb(30,00,65);
     -moz-box-shadow: 50px 0px 100px rgb(30,0,65), -50px 0px 100px rgb(30,00,65);
     box-shadow: 50px 0px 100px rgb(30,0,65), -50px 0px 100px rgb(30,00,65);
+	*/
 }
 
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: #b61924;
+  background-color: #bbb;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
@@ -49,14 +57,14 @@ body {
 	z-index: -9;
 	max-width: 752px;
 
-	filter: blur(12px);
-	-webkit-filter: blur(12px);
+	filter: blur(4px);
+	-webkit-filter: blur(4px);
 }
 
 .panelMain { 
 	display: flex;
 	margin-top:00px;
-	border-bottom: 4px dashed #0ce;
+	border-bottom: 5px dashed #0086a599;
 }
 
 .panelLeft {
@@ -67,7 +75,7 @@ body {
 }
 
 .panelRight {
-	background-color: #000;
+	background-color: #fff;
 	position:relative;
 	width:50%;
 	padding:0px;
@@ -75,15 +83,26 @@ body {
 }
 
 .panelLeftTitle {
+	
+	
 	position:relative;
-	background: rgba(0,0,0,0.5);
-
+	background: #eee;
+/*
 	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.7);
     -moz-box-shadow: 0 0 20px rgba(0,0,0,0.7);
 	box-shadow: 0 0 20px rgba(0,0,0,0.7);
+	*/
 	
-	background-image: linear-gradient(to right, rgb(0 10 35 / 73%), rgb(0 208 255 / 15%));
-	background-image: -webkit-linear-gradient(to right, rgb(0 10 35 / 73%), rgb(0 208 255 / 15%));
+	/*
+	background-image: linear-gradient(to right, rgb(240 240 240 / 73%), rgb(240 250 255 / 15%));
+	background-image: -webkit-linear-gradient(to right, rgb(240 240 240 / 73%), rgb(240 250 255 / 15%));
+	*/
+	
+box-shadow: 5px 5px 9px rgba(0,0,0, 0.15);
+-webkit-box-shadow: 5px 5px 9px rgba(0,0,0, 0.15);
+	
+	background-image: linear-gradient(to right, #d4fdff99, #fff9);
+	background-image: -webkit-linear-gradient(to right, #d4fdff99, #fff9);
 	
 	border:0px black;
 	border-radius: 30px;
@@ -100,7 +119,7 @@ body {
 	max-width: 752px;
 }
 
-.textTitle {
+.textTitleBACKUP {
 	position: absolute;
     right: 40px;
     top: 40px;
@@ -110,7 +129,7 @@ body {
     line-height: 0.98;
     margin: 0px;
     text-transform: none;
-    text-shadow: 2px 2px 5px rgb(0 208 215), 3px 3px 9px rgb(0 0 0), 3px 3px 15px rgb(0 0 0);
+    text-shadow: 2px 2px 5px rgb(0 208 215);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -122,7 +141,7 @@ body {
 	text-align: right;
 }
 
-.textDodge {
+.textDodgeBACKUP {
 position: absolute;
     right: 40px;
     top: 40px;
@@ -136,13 +155,32 @@ position: absolute;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
-
-	background: linear-gradient(359deg, #ff0000, #003d42 80%);
-    background: -webkit-linear-gradient(359deg, #ff0000, #003d42 80%);
-
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     mix-blend-mode: color-dodge;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.textTitle {
+	position: absolute;
+	right: 40px;
+	top: 40px;
+	font-family: "CustomFontTitle";
+	font-size: 69px;
+	font-weight: 700;
+	line-height: 0.98;
+	margin: 0px;
+	text-transform: none;
+	text-shadow: 2px 2px 5px rgb(230, 230, 230);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+	background: linear-gradient( 0deg, #006399, #008a9e 75%);
+	background: -webkit-linear-gradient( 0deg, #006399, #008a9e 75%);
+		background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	text-transform: uppercase;
 	text-align: right;
 }
@@ -157,38 +195,14 @@ position: absolute;
     line-height: 1.1;
     margin: 0px;
     text-transform: none;
-    text-shadow: 1px 1px 3px rgb(0 228 255), 2px 2px 6px rgb(0 0 0), 3px 3px 12px rgb(0 0 0);
+    text-shadow: 2px 2px 4px rgb(230, 230, 230);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
-	background: linear-gradient( 0deg, #8b03d2, #a70074 80%);
-    background: -webkit-linear-gradient( 0deg, #8b03d2, #a70074 80%);
+    background: linear-gradient( 0deg, #006399, #008a9e 75%);
+	background: -webkit-linear-gradient( 0deg, #006399, #008a9e 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-	text-align: right;
-}
-
-.textSubtDodge {
-	position: absolute;
-    right: 40px;
-    top: 120px;
-    font-family: "CustomFontTitle";
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.1;
-    margin: 0px;
-    text-transform: none;
-    text-shadow: 0px 0px 4px rgba(0, 112, 255, 1), 0px 0px 12px rgba(0, 112, 255, 1);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-
-	background: linear-gradient( 359deg, #ff0000, #005566 50%);
-    background: -webkit-linear-gradient( 359deg, #ff0000, #005566 50%);
-
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    mix-blend-mode: color-dodge;
 	text-align: right;
 }
 
@@ -200,8 +214,8 @@ position: absolute;
 	font-size:20px;
 	text-align:right;
 	/*font-style: italic;*/
-	color:#0df;
-	text-shadow: 1px 1px 4px rgb(0 0 0 / 92%), 1px 1px 3px blue;
+	color:#0086a5;
+	/*text-shadow: 1px 1px 4px rgb(0 0 0 / 92%), 1px 1px 3px blue;*/
 }
 
 .leftSideContainer {
@@ -216,14 +230,14 @@ position: absolute;
 	height: 100%;
 	width: 100%;
 	border-radius: 20px;
-	box-shadow:0px 0px 30px 0 #000000;
+	/*box-shadow:0px 0px 30px 0 #000000;*/
 }
 
 .leftSideShadow {
 	position: absolute;
     width: 100%;
     height: 100%;
-    box-shadow: inset 0px 0px 20px 0 #000000;
+    box-shadow: inset 5px 5px 9px 0 rgba(0,0,0,0.3);
     border-radius: 20px;
     top: 0;
     left: 0;
@@ -235,22 +249,30 @@ position: absolute;
     vertical-align: middle;
 }
 
+
+
 .panelRightContent {
 	
 	min-height: 300px;
 	padding: 30px;
-
+/*
 	  background: linear-gradient(to right, rgb(00,90,115), rgb(30,00,65));
 	  background: -webkit-linear-gradient(to right, rgb(00,90,115), rgb(30,00,65));
+*/
+
+	background: linear-gradient(to right, rgb(239,254,255), rgb(240,240,240));
+	background: -webkit-linear-gradient(to right, rgb(239,254,255), rgb(240,240,240));
+
 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-
+/*
 	  -webkit-box-shadow: inset 0 0 30px #000;
     -moz-box-shadow: inset 0 0 30px #000;
     box-shadow: inset 0 0 30px #000;
+	*/
 }
 
 .boxRight { 
@@ -258,8 +280,8 @@ position: absolute;
 	padding:20px;
 	border-radius:20px;
 	
-		box-shadow: 0 0 15px rgba(0,0,0,0.7);
-		background-color: #00253596;
+		box-shadow: inset 4px 4px 8px rgba(0,0,0,0.15);
+		background-color: #f0ffff;
 
 	/*
 	background-image: linear-gradient(to right, #003546, #001525);
@@ -271,11 +293,34 @@ position: absolute;
 }
 
 .boxTitle {
+	
+	padding-bottom:2px;
+	border-bottom: 3px dashed #0086a599;
+/*
+    text-shadow: 2px 2px 4px rgb(230, 230, 230);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    background: linear-gradient( 0deg, #006399, #008a9e 75%);
+	background: -webkit-linear-gradient( 0deg, #006399, #008a9e 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;(*/
+}
+
+.boxTitleText {
+	/*
+	padding-bottom:2px;
+	border-bottom: 2px solid #0086a566;
+	*/
 	font-size: 25px;
-	padding-bottom:10px;
-	border-bottom: 2px dashed #0ce;
-	text-shadow: 1px 1px 5px black;
-	color: #2ce2ff;
+    text-shadow: 2px 2px 4px rgb(230, 230, 230);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    background: linear-gradient( 0deg, #006399, #008a9e 75%);
+	background: -webkit-linear-gradient( 0deg, #006399, #008a9e 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .boxContent {
@@ -297,10 +342,10 @@ position: absolute;
 	position: relative;
 	display: inline-block;
 	width: calc(50% - 11px);
-	background-image: linear-gradient(to left, #00354699, #00152599);
-	background-image: -webkit-linear-gradient(to left, #00354699, #00152599);
+	background-image: linear-gradient(to right, #d4fdff99, #fff9);
+	background-image: -webkit-linear-gradient(to right, #d4fdff99, #fff9);
 	border-radius:20px;
-	box-shadow: 0 0 15px rgba(0,0,0,0.7);
+	box-shadow: 4px 4px 8px rgba(0,0,0,0.15);
 	margin-top:15px;
 	min-width: 298px;
 }
@@ -337,14 +382,15 @@ position: absolute;
 }
 
 .hexContentTitle {
-	font-size: 20px;
-	text-shadow: 1px 1px 3px rgb(0 0 0 / 72%);
-	text-transform: capitalize;
-	border-bottom: 1px dashed;
+	font-size: 19px;
+	/*text-shadow: 1px 1px 3px rgb(0 0 0 / 72%);*/
+	text-transform: capitalize; 
 	margin-bottom: 5px;
 	font-weight: bold;
-	color: #0ce;
+	color: #0086a5;
 	white-space: nowrap;
+	border-bottom: 2px dashed #0086a599;
+	padding-bottom: 1px;
 }
 
 .hexContentBody {
