@@ -172,7 +172,7 @@ position: absolute;
 	line-height: 0.98;
 	margin: 0px;
 	text-transform: none;
-	text-shadow: 2px 2px 5px rgb(230, 230, 230);
+	text-shadow: 2px 2px 5px rgb(220 252 255);
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	background-clip: text;
@@ -195,7 +195,7 @@ position: absolute;
     line-height: 1.1;
     margin: 0px;
     text-transform: none;
-    text-shadow: 2px 2px 4px rgb(230, 230, 230);
+    text-shadow: 2px 2px 4px rgb(220 252 255);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -335,9 +335,11 @@ position: absolute;
 
 .boxContent ul {
   list-style: none;
+  line-height: 200%;
 }
 
 .boxContent ul li::before {
+	
   content: "\2022";
   color: #0086a5;
   font-weight: bold;
