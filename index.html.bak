@@ -43,15 +43,6 @@
 
 			</div>
 			
-			<!--
-			<div class="panelRight">
-
-				<div class="content" style="text-align: center;">
-					<img src="images/Title/pic01.png" class="rightSideImage" />
-				</div>
-
-			</div>
-			-->
 			
 			<div class="panelRight">
 				<div class="panelRightContent" id="firstRightContent">
@@ -71,7 +62,7 @@
 
 								<div class="hexContent">
 									<div class="hexContentTitle">Java Enterprise</div>
-									<div class="hexContentBody">7 years full-stack<br>Java Development</div>
+									<div class="hexContentBody">6 years full-stack<br>Java Development</div>
 								</div>
 							</div>
 
@@ -180,13 +171,13 @@
 						</div>
 						<div class="boxContent">
 							<ul>
+								<li>MVC frameworks, client-server structure</li>
+								<li>Certificates, SSL, Data-security, Encryption</li>
 								<li>Custom TCP / UDP protocol implementation</li>
+								<li>Batch / Shell scripts & Python / Groovy scripts</li>
 								<li>Excellent knowledge of REST web-services & APIs</li>
 								<li>Experience with Weblogic / Tomcat / JBoss servers</li>
-								<li>Gradle / Maven / Ant builds and configuration for Java projects</li>
-								<li>Linux / Windows Batch / Shell scripts & Python / Groovy scripts</li>
-								<li>Good understanding of MVC frameworks, client-server structure</li>
-								<li>HTTPS Certificates, SSL, Data-security, Certificate configuration</li>
+								<li>Gradle / Maven / Ant builds, config for Java projects</li>
 							</ul>
 						</div>
 					</div>
@@ -196,120 +187,6 @@
 			
 		</div>
 
-
-		<!-- Skills
-		<div class="panelMain">
-			<div class="panelLeft">
-
-				<div class="panelLeftTitle">
-
-					<div class="leftSideContainer">
-						<img src="images/Skills/icon.png" class="leftSideImage" />
-						<div class="leftSideShadow"></div>
-					</div>
-
-					<p class=" textTitle">Coding</p>
-					<p class="textDodge">Coding</p>
-					<p class="textSubt">Skills & Experience</p>
-					<p class="textSubtDodge">Skills & Experience</p>
-				</div>
-
-			</div>
-
-
-		</div>
-		-->
-
-		<!-- Neonify 
-		<div class="panelMain">
-			<div class="panelLeft">
-
-				<div class="panelLeftTitle">
-
-					<div class="leftSideContainer">
-						<img src="images/Neonify/icon.png" class="leftSideImage" />
-						<div class="leftSideShadow"></div>
-					</div>
-
-					<p class=" textTitle">Neonify</p>
-					<p class="textDodge">Neonify</p>
-					<p class="textSubt">Android Game</p>
-					<p class="textSubtDodge">Android Game</p>
-					<p class="textTime">May 2021 - Nov 2021</p>
-				</div>
-
-			</div>
-			<div class="panelRight">
-
-				<div class="panelImageRow">
-					<img src="images/Neonify/logo_thumb.png" data-full="images/Neonify/logo.png" class="rightSideImage, clickImage" />
-				</div>
-				<div class="panelImageRow">
-					<img src="images/Neonify/pic1_thumb.png" data-full="images/Neonify/pic1.png" class="clickImage" style="max-width: 25%" />
-					<img src="images/Neonify/pic2_thumb.png" data-full="images/Neonify/pic2.png" class="clickImage" style="max-width: 25%" />
-					<img src="images/Neonify/pic3_thumb.png" data-full="images/Neonify/pic3.png" class="clickImage" style="max-width: 25%" />
-					<img src="images/Neonify/pic4_thumb.png" data-full="images/Neonify/pic4.png" class="clickImage" style="max-width: 25%" />
-				</div>
-
-				<div class="panelRightContent">
-
-					<div class="boxRight" id="boxRightMargin">
-						<div class="boxTitle">
-							<strong>Description</strong>
-						</div>
-						<div class="boxContent">
-							<p>Game about having adventures in the night city.
-								Each player has an avatar and can walk along the city street.
-								Each building is unique arcade room with custom background, lighting & elements.<br>
-								Players compete against each-other and win by collecting more points than opponent.<br>
-								Players can earn or buy items - that affect the visual look of the avatar & grant
-								bonuses.<br>
-								Players can earn or buy emojis - that can be used in cities and grant extra lives.<br>
-								Players can edit their avatar by adding / removing items in the avatar editor.
-							</p>
-							<p>There are 3 cities, each city has 8 arcade rooms + 3 shops.
-								Completing one city allows players to move to the next city.
-								Currently each arcade room has the same game mechanic - jumping to nodes in neon
-								lattice.
-								But in the future each city will have multiple different game mechanics.
-							</p>
-							<p>
-								Responsive - Supports all resulutions of Android phones.
-								Canvas elements automatically adapt to screen resolution.
-							</p>
-							<p>
-								Optimized user interfaces and sprites by using batching - game runs at 60 FPS even on
-								old Android phones.
-							</p>
-							<p>
-								Fully functional micro-transactions. Three different payment tiers.
-								Payments handled by Google In-App-Purchases API.
-							</p>
-							<p>Game is available on <a
-									href="https://play.google.com/store/apps/details?id=com.neon.night">Google Play
-									Store</a></p>
-						</div>
-					</div>
-
-					<div class="boxRight">
-						<div class="boxTitle">
-							<strong>Technologies</strong>
-						</div>
-						<div class="boxContent">
-							<ul>
-								<li><strong>Unity3D</strong> - Scenes, Prefabs, Assets, Canvas, Shaders</li>
-								<li><strong>Visuals</strong> - Lighting, Textures, Animations, Particles</li>
-								<li><strong>Scripting</strong> - Game Mechanics, Movement, Transitions</li>
-								<li><strong>Performance</strong> - Batching, Optimizations, Testing</li>
-								<li><strong>Production</strong> - Google Play Store, Configuration, Payments</li>
-							</ul>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-		-->
 		
 			<!-- Housify -->
 		<div class="panelMain">
@@ -323,7 +200,7 @@
 					</div>
 
 					<p class="textTitle">Housify</p>
-					<p class="textSubt">Rental Web App</p>
+					<p class="textSubt">Search Engine</p>
 					<p class="textTime">Jan 2021 – Dec 2021</p>
 				</div>
 
@@ -350,26 +227,25 @@
 							<strong class="boxTitleText">Description</strong>
 						</div>
 						<div class="boxContent">
-							<p>Creating my custom rental web application.</p>
+							<p>Creating real-estate search engine.</p>
 							<p>
-								Many people have trouble finding a place to live because there is no unified system for housing in Latvia.
-								Instead there are more than 10 different websites competing for the main position in housing industry.
-								Each of those websites have their own housing posters, their own partners and unique web-page layout.
-								My application collects all posters from these websites and displays unified rent / sale housing posters in simple layout.
+								Main goal of the system is to collect real-estate posters from multiple websites and display them in simple unified format.
 							</p>
 							<p>
-								Front-end is simple HTML + CSS + JS + JQuery. Filter on the left-side allows easily filtering specific range of posters. Hardest part was creating the cluster map for displaying housing locations.
-								Cluster map adapts to zoom-level and changes amount of posters in an area.
+								System uses microservice architecture. 
+								Each microservice runs custom Java Spring service inside a Docker container and communicates with other containers / services.
 							</p>
 							<p>
-								Back-end is composed of Java / Tomcat server and WebSockets for instant client-server communication / updates.
-								Posters are loaded from the PostgreSQL database and cached on server-side to improve performance.
+								Poster data is stored in PostgreSQL database and managed by the Poster service.
 							</p>
 							<p>
-								Custom crawler process runs on separate Java application, periodically crawls all websites, finds new housing posters and stores them into the database.
-								Crawler uses JSoup to read / parse the HTML contents of each website.
+								Poster images are handled by Image service, which can be directly accessed by client-side apps to reduce load on API-Gateway.
 							</p>
-							<p>Advanced features include viewing statistics for specific address, viewing historic posters in the same address and viewing global statistics for specific time period.</p>
+							<p>
+								Web crawler process periodically crawls all websites, uses JSoup to read / parse the HTML content, finds new housing posters and sends them to Poster service.
+							</p>
+							<p>Advanced features include viewing historic posters, viewing nearby posters and viewing statistics for specific address.</p>
+							<p>Some features like mobile application and Payment Service are still in prototype-stage.</p>
 	
 						</div>
 					</div>
@@ -403,12 +279,12 @@
 				<div class="panelLeftTitle">
 
 					<div class="leftSideContainer">
-						<img src="images/DigiBots/icon.png" class="leftSideImage" />
+						<img src="images/Android/icon.png" class="leftSideImage" />
 						<div class="leftSideShadow"></div>
 					</div>
 
-					<p class="textTitle">DigiBots</p>
-					<p class="textSubt">Multiplayer Game</p>
+					<p class="textTitle">Android</p>
+					<p class="textSubt">App Development</p>
 					<p class="textTime">May 2020 – Dec 2020</p> 
 				</div>
 
@@ -416,15 +292,15 @@
 			<div class="panelRight">
 
 				<div class="panelImageRow">
-					<img src="images/DigiBots/logo_thumb.png" data-full="images/DigiBots/logo.png" class="rightSideImage, clickImage" />
+					<img src="images/DigiBots/pic0_thumb.png" data-full="images/DigiBots/logo.png" class="rightSideImage, clickImage" style="max-width: 50%" />
+					<img src="images/DigiBots/pic2_thumb.png" data-full="images/DigiBots/pic2.png" class="rightSideImage, clickImage" style="max-width: 50%" />
 				</div>
+				
 				<div class="panelImageRow">
-					<img src="images/DigiBots/pic1_thumb.png" data-full="images/DigiBots/pic1.png" class="clickImage" style="max-width: 50%" />
-					<img src="images/DigiBots/pic2_thumb.png" data-full="images/DigiBots/pic2.png" class="clickImage" style="max-width: 50%" />
-				</div>
-				<div class="panelImageRow">
-					<img src="images/DigiBots/pic3_thumb.png" data-full="images/DigiBots/pic3.png" class="clickImage" style="max-width: 50%" />
-					<img src="images/DigiBots/pic4_thumb.png" data-full="images/DigiBots/pic4.png" class="clickImage" style="max-width: 50%" />
+					<img src="images/Neonify/pic1_thumb.png" data-full="images/Neonify/pic1.png" class="rightSideImage, clickImage" style="max-width: 25%" />
+					<img src="images/Neonify/pic2_thumb.png" data-full="images/Neonify/pic2.png" class="rightSideImage, clickImage" style="max-width: 25%" />
+					<img src="images/Neonify/pic3_thumb.png" data-full="images/Neonify/pic3.png" class="rightSideImage, clickImage" style="max-width: 25%" />
+					<img src="images/Neonify/pic5_thumb.png" data-full="images/Neonify/pic5.jpg" class="rightSideImage, clickImage" style="max-width: 25%" />
 				</div>
 
 				<div class="panelRightContent">
@@ -434,31 +310,21 @@
 							<strong class="boxTitleText">Description</strong>
 						</div>
 						<div class="boxContent">
-							<p>Game about building your bots and competing against other players in epic bot-battles.
-							</p>
-							<p>Each player can have up to 4 bots, Each bot consists of multiple parts.
-								Each part is different and grants different stats & bonuses.
-								This allows for great customization and variety of bots.
+							<p>
+								Creating multiple Android applications using Unity Engine.
 							</p>
 							<p>
-								Bot battles happen as simulations inside an arena.
-								Players place the bots one-by-one and choose bot path.
-								Bots will continue to move along the chosen path.
-								Bots will automatically aim and fire all equipped weapon parts.
-								Bots use fully functional 3D physics for extremely realistic battles.
+								Client-side uses extensive C# scripting and .NET framework.
 							</p>
-							<p>The game has partial multiplayer support - All player & bot data is stored and
-								synchronized on Java Tomcat server.
-								Battles load initial bot data from server and continue to run as simulations.
+							<p>
+								Server-side uses Java Spring Boot with PostgreSQL and Hibernate persistance.
 							</p>
-							<p>Game also has item packs - containers that can be purchased as micro-transactions and
-								contain several parts.</p>
-							<p>Game world has several iterations - one prototype is a 3D cyberspace world with ability
-								to enter various different cyber spaces.
-								Another prototype is a lobby-style world where players have access to all actions.
+							<p>
+								Fully functional payment systems using Google Play Services.
 							</p>
-							<p>Game was originally designed for mobile phones, but development was paused due to
-								performance issues on mobile devices.</p>
+							<p>
+								Available on Google Play Store: https://play.google.com/store/apps/details?id=com.neon.night
+							</p>
 						</div>
 					</div>
 
@@ -482,89 +348,6 @@
 			</div>
 		</div>
 
-
-		<!-- Crypto 
-		<div class="panelMain">
-			<div class="panelLeft">
-
-				<div class="panelLeftTitle">
-
-					<div class="leftSideContainer">
-						<img src="images/Crypto/icon.png" class="leftSideImage" />
-						<div class="leftSideShadow"></div>
-					</div>
-
-					<p class="textTitle">Crypto</p>
-					<p class="textDodge">Crypto</p>
-					<p class="textSubt">Custom System</p>
-					<p class="textSubtDodge">Custom System</p>
-					<p class="textTime">May 2020 - Sep 2020</p>
-				</div>
-
-			</div>
-			<div class="panelRight">
-
-				<div class="panelImageRow">
-					<img src="images/Crypto/logo_thumb.png" data-full="images/Crypto/logo.png" class="rightSideImage, clickImage" />
-				</div>
-				<div class="panelRightContent">
-
-					<div class="boxRight" id="boxRightMargin">
-						<div class="boxTitle">
-							<strong>Description</strong>
-						</div>
-						<div class="boxContent">
-							<p>Bitcoin protocol implementation in C#
-							</p>
-							<p>
-								To participate in Bitcoin network each user must have a client that follows Bitcoin TCP protocol.<br>
-								The protocol describes how to parse / handle byte arrays, how to communicate with other peers and transmit messages.<br>
-								Most users / companies select one of public third-party clients.<br>
-								However that involves the risk of potential malicious or unwanted code.<br>
-								Writing your own client allows not having to trust third-party clients / websites.<br>
-								Public clients also have artificial built-in limitations that limit user functionality.
-							</p>
-							<p>
-								In this project i succesfully created custom implementation of Bitcoin protocol in C#.
-								It initializes the node, connects to one of the network IP-addresses and does initial handshake by sending / receiving version message.
-								It can connect to any number of peers, request block information and broadcast transactions.
-							</p>
-							<p>
-								All operations are done on byte-level by reading / sending exactly the required bytes.
-								Each request has specific Packet class with required byte array written in C# language.
-							</p>
-							<p>
-								Theoretically it can run as full node, although that would require large storage space (around 500GB) and constant internet access.
-							</p>
-							<p>
-								Possible applications include using it as payment system, personal transaction validator or network analyzer.
-							</p>
-							<p>
-								Not exclusive to Bitcoin - almost every single cryptocurrency uses node network with custom TCP protocol.
-								With minor adjustments this can be used to securely communicate in any cryptocurrency network.
-							</p>
-						</div>
-					</div>
-
-					<div class="boxRight">
-						<div class="boxTitle">
-							<strong>Technologies</strong>
-						</div>
-						<div class="boxContent">
-							<ul>
-								<li><strong>Network</strong> - Node Network, Encryption, Signatures</li>
-								<li><strong>Blockchain</strong> - Blocks, Transactions, Validations</li>
-								<li><strong>Protocol</strong> - Bitcoin TCP protocol implementation in C#</li>
-								<li><strong>Bytes</strong> - Custom byte operations & Packet structure</li>
-							</ul>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</div>
--->
 
 		<!-- Qred -->
 		<div class="panelMain">
@@ -661,7 +444,7 @@
 			<div class="panelRight">
 
 				<div class="panelImageRow">
-					<img src="images/Other/pic1.png" style="background:rgb(46, 26, 0); max-width: 33%;" />
+					<img src="images/Other/pic1.png" style="background:rgb(76, 46, 0); max-width: 33%;" />
 					<img src="images/Other/pic2.png" style="background:rgb(49, 6, 0); max-width: 33%;" />
 					<img src="images/Other/pic3.png" style="background:rgb(29, 0, 41); max-width: 33%;" />
 				</div>

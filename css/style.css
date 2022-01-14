@@ -324,13 +324,29 @@ position: absolute;
 }
 
 .boxContent {
-	line-height: 200%;
+	line-height: 120%;
 
 
 	-webkit-user-select: text;  
   -moz-user-select: text;
   -ms-user-select: text; 
   user-select: text; 
+}
+
+.boxContent ul {
+  list-style: none;
+  line-height: 200%;
+}
+
+.boxContent ul li::before {
+	
+  content: "\2022";
+  color: #0086a5;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  font-size: 18px;
 }
 
 .feature-icon {
