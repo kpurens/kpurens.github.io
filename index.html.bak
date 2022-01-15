@@ -47,7 +47,7 @@
 			<div class="panelRight">
 				<div class="panelRightContent" id="firstRightContent">
 
-					<div class="boxRight" id="boxRightMargin">
+					<div class="boxRight" id="boxRightMargin" style="padding-bottom: 20px;">
 						<div class="boxTitle">
 							<strong class="boxTitleText">Experience</strong>
 						</div>
@@ -81,7 +81,7 @@
 
 					</div>
 
-					<div class="boxRight" id="boxRightMargin">
+					<div class="boxRight" id="boxRightMargin" style="padding-bottom: 20px;">
 						<div class="boxTitle">
 							<strong class="boxTitleText">Knowledge</strong>
 						</div>
@@ -261,7 +261,7 @@
 								<li><strong>Services - </strong>Multiple internal and external GET / POST service calls</li>
 								<li><strong>Docker - </strong>Multiple Docker pods – each handling part of the system</li>
 								<li><strong>Crawler - </strong>Customized web-crawler loading and parsing HTML content</li>
-								<li><strong>WebSockets - </strong>WebSockets for fast client / server communication</li>
+								<li><strong>WebSockets - </strong>Fast client / server communication using WebSockets</li>
 							</ul>
 						</div>
 					</div>
@@ -488,7 +488,7 @@
 							</p>
 							<p>
 								Gained valuable experience working with core Java technologies,<br>
-								builds, versioning, deployments and optimization.
+								builds, versioning, deployments and server configuration.
 							</p>
 							<p>
 								Most projects also had complex database structure in either Oracle or Postgres, which allowed me to become familiar with DB optimization, indexing, data-types and procedures.
