@@ -172,7 +172,7 @@ position: absolute;
 	line-height: 0.98;
 	margin: 0px;
 	text-transform: none;
-	text-shadow: 2px 2px 5px rgb(220 252 255);
+	text-shadow: 2px 2px 5px rgb(213, 253, 255);
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
 	background-clip: text;
@@ -195,12 +195,12 @@ position: absolute;
     line-height: 1.1;
     margin: 0px;
     text-transform: none;
-    text-shadow: 2px 2px 4px rgb(220 252 255);
+    text-shadow: 1px 1px 3px rgba(213, 253, 255);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
-    background: linear-gradient( 0deg, #006399, #008a9e 75%);
-	background: -webkit-linear-gradient( 0deg, #006399, #008a9e 75%);
+    background: linear-gradient( 0deg, #005379, #005a7e 75%);
+	background: -webkit-linear-gradient( 0deg, #005379, #005a7e 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	text-align: right;
@@ -212,10 +212,10 @@ position: absolute;
 	left: 0px;
 	top: 154px;
 	font-size:20px;
-	text-align:right;
+	text-align:right; 
 	/*font-style: italic;*/
 	color:#0086a5;
-	/*text-shadow: 1px 1px 4px rgb(0 0 0 / 92%), 1px 1px 3px blue;*/
+	text-shadow: 1px 1px 3px rgba(0, 166, 199, 0.5);
 }
 
 .leftSideContainer {
@@ -237,7 +237,7 @@ position: absolute;
 	position: absolute;
     width: 100%;
     height: 100%;
-    box-shadow: inset 5px 5px 9px 0 rgba(0,0,0,0.3);
+    box-shadow: inset 5px 5px 9px 0 rgba(0,0,0,0.2);
     border-radius: 20px;
     top: 0;
     left: 0;
@@ -282,6 +282,8 @@ position: absolute;
 	
 		box-shadow: inset 4px 4px 8px rgba(0,0,0,0.15);
 		background-color: #f0ffff;
+		
+		padding-bottom: 1px;
 
 	/*
 	background-image: linear-gradient(to right, #003546, #001525);
@@ -309,11 +311,11 @@ position: absolute;
 
 .boxTitleText {
 	/*
-	padding-bottom:2px;
+	padding-bottom:2px;.
 	border-bottom: 2px solid #0086a566;
 	*/
-	font-size: 25px;
-    text-shadow: 2px 2px 4px rgb(220 252 255);
+	font-size: 27px;
+    text-shadow: 1px 1px 2px rgba(213, 253, 255, 0.8);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -345,7 +347,7 @@ position: absolute;
   font-weight: bold;
   display: inline-block; 
   width: 1em;
-  margin-left: -1em;
+  margin-left: -1.5em;
   font-size: 18px;
 }
 
@@ -401,9 +403,9 @@ position: absolute;
 	font-size: 19px;
 	/*text-shadow: 1px 1px 3px rgb(0 0 0 / 72%);*/
 	text-transform: capitalize; 
-	margin-bottom: 5px;
-	font-weight: bold;
-	color: #0086a5;
+	margin-bottom: 5px; 
+	color:#0086a5;
+	text-shadow: 1px 1px 3px rgba(0, 166, 199, 0.5);
 	white-space: nowrap;
 	border-bottom: 2px dashed #0086a599;
 	padding-bottom: 1px;

@@ -167,7 +167,7 @@
 
 					<div class="boxRight">
 						<div class="boxTitle">
-							<strong class="boxTitleText">Additional Info</strong>
+							<strong class="boxTitleText">Concepts</strong>
 						</div>
 						<div class="boxContent">
 							<ul>
@@ -242,10 +242,9 @@
 								Poster images are handled by Image service, which can be directly accessed by client-side apps to reduce load on API-Gateway.
 							</p>
 							<p>
-								Web crawler process periodically crawls all websites, uses JSoup to read / parse the HTML content, finds new housing posters and sends them to Poster service.
+								Web Crawler process periodically crawls all websites, uses JSoup to read / parse the HTML content, finds new housing posters and sends them to Poster service.
 							</p>
-							<p>Advanced features include viewing historic posters, viewing nearby posters and viewing statistics for specific address.</p>
-							<p>Some features like mobile application and Payment Service are still in prototype-stage.</p>
+							<p>Advanced features include viewing poster historic versions,<br>loading nearby posters and calculating statistics for specific address.</p>
 	
 						</div>
 					</div>
@@ -256,11 +255,13 @@
 						</div>
 						<div class="boxContent">
 							<ul>
-								<li><strong>Back-End</strong> - Linux Tomcat WebServer & Java code</li>
-								<li><strong>Front-End</strong> - Responsive Front-End using HTML, CSS, JS, JQuery</li>
-								<li><strong>WebSockets</strong> - WebSockets for fast client / server communication</li>
-								<li><strong>WebCrawler</strong> - Automatic web crawler / parser for multiple websites</li>
-								<li><strong>PostgreSQL</strong> - Large scale data storage with PostgreSQL + Hibernate</li>
+								<li><strong>Frontend - </strong>Responsive UI with customized Google Maps</li>
+								<li><strong>Backend - </strong>Java Spring Microservice architecture</li>
+								<li><strong>Database - </strong>Large-scale data storage with MongoDB and PostgreSQL</li>
+								<li><strong>Services - </strong>Multiple internal and external GET / POST service calls</li>
+								<li><strong>Docker - </strong>Multiple Docker pods – each handling part of the system</li>
+								<li><strong>Crawler - </strong>Customized web-crawler loading and parsing HTML content</li>
+								<li><strong>WebSockets - </strong>WebSockets for fast client / server communication</li>
 							</ul>
 						</div>
 					</div>
@@ -284,7 +285,7 @@
 					</div>
 
 					<p class="textTitle">Android</p>
-					<p class="textSubt">App Development</p>
+					<p class="textSubt">Mobile Development</p>
 					<p class="textTime">May 2020 – Dec 2020</p> 
 				</div>
 
@@ -311,19 +312,24 @@
 						</div>
 						<div class="boxContent">
 							<p>
-								Creating multiple Android applications using Unity Engine.
+								Developing mobile Android applications using Unity Engine.
 							</p>
 							<p>
-								Client-side uses extensive C# scripting and .NET framework.
+								Client-side created using extensive C# scripting and .NET framework. 
+								Responsive interfaces, Canvas, Shaders, Particles, Animations, Lighting.
 							</p>
 							<p>
-								Server-side uses Java Spring Boot with PostgreSQL and Hibernate persistance.
+								Server-side uses Java Spring Boot, Lombok and Bytes library.<br> PostgreSQL + Hibernate persistance stores user information / payments.
 							</p>
 							<p>
-								Fully functional payment systems using Google Play Services.
+								Custom TCP protocol handles client-server communication,<br>
+								including custom authentication, validation and execution functions.
 							</p>
 							<p>
-								Available on Google Play Store: https://play.google.com/store/apps/details?id=com.neon.night
+								Fully functional payment systems using Google Play Services,<br>managing all in-app purhcases through API interface.
+							</p>
+							<p>
+								Available on Google Play Store:  <a href="https://play.google.com/store/apps/details?id=com.neon.night">Neonify</a>  
 							</p>
 						</div>
 					</div>
@@ -334,12 +340,12 @@
 						</div>
 						<div class="boxContent">
 							<ul>
-								<li><strong>MagicaVoxel</strong> - Custom 3D model voxel generation</li>
-								<li><strong>Multiplayer</strong> - Custom TCP multiplayer Java server</li>
-								<li><strong>Unity3D</strong> - Scenes, Prefabs, Assets, Canvas, Shaders</li>
-								<li><strong>Visuals</strong> - Lighting, Textures, Animations, Particles</li>
-								<li><strong>Physics</strong> - Fully functional 3D physics implementation</li>
-								<li><strong>Scripting</strong> - Game Mechanics, Movement, Transitions</li>
+								<li><strong>Frontend - </strong> C# and .NET scripting in Unity Engine</li>
+								<li><strong>Backend - </strong> Tomcat, Java Spring Boot, Lombok, Bytes</li>
+								<li><strong>Database - </strong> PostgreSQL + Hibernate</li>
+								<li><strong>Connection - </strong> Custom TCP protocol with byte-level communication</li>
+								<li><strong>Payments - </strong> Google Play Services in-app purhcases API</li>
+								<li><strong>Deployment - </strong> Deployed & configured on Google Play Store</li>
 							</ul>
 						</div>
 					</div>
@@ -368,7 +374,7 @@
 			</div>
 			<div class="panelRight">
 				<div class="panelImageRow">
-					<img src="images/Qred/logo_thumb.png" data-full="images/Qred/logo.png" class="rightSideImage, clickImage" />
+					<img src="images/Qred/title_mini.png" data-full="images/Qred/title.png" class="rightSideImage, clickImage" />
 				</div>
 				<div class="panelRightContent">
 
@@ -382,14 +388,33 @@
 								Qred gives out loans to small businesses, but instead of having complex fees and conditions the payback process is very simple - a fixed monthly payment similar to gym membership.
 							</p>
 							<p>
-								Worked as full-stack developer with wide variety of responsibilities:<br>
-								Front-end form and interface improvements.<br>
-								Back-end improvements in Java code.<br>
-								Database management in PostgreSQL / Liquibase.<br>
-								Server & build management in Jenkins & Linux.<br>
-								Daily / Hourly processes and payment handling.<br>
-								Accounting changes and payment management.<br>
-								Multiple different REST / SOAP apis to external systems.<br>
+								Worked as full-stack Java developer with wide variety of responsibilities.
+							</p>
+							<p>
+								Front-end form and interface improvements using GWT and XML config.
+							</p>
+							<p>
+								Back-end improvements with Java, Lombok, custom mapping framework.
+							</p>
+							<p>
+								Database management with PostgreSQL / Liquibase / Hibernate.
+							</p>
+							<p>
+								Build management with Gradle, Jenkins & Linux scripts.
+							</p>
+							<p>
+								Transitioning towards Microservice architecture with AWS + Docker
+							</p>
+							<p>
+								Multiple different REST / SOAP APIs to external systems.
+							<p>
+							<p>
+								Daily / Hourly processes with complex transaction logic.
+							</p>
+							<p>
+								Accounting changes and improvements,<br>Parsing payment information from bank CSV / Excel files.
+							</p>
+							<p>
 								Handling high-value assets for partners through FTP.<br>
 								Handling contract changes / templates / reports.
 							</p>
@@ -402,13 +427,13 @@
 						</div>
 						<div class="boxContent">
 							<ul>
-								<li><strong>Back-End</strong> - Core system development with Java, PostgreSQL, GWT</li>
-								<li><strong>Front-End</strong> - Front-End form improvements with HTML, JS, CSS</li>
-								<li><strong>REST APIs</strong> - Integrations with Nordiska, PayByLink, Bisnode,
-									Creditsafe</li>
-								<li><strong>FTP files</strong> - FTP file transfer and payment processing.
-								<li><strong>Builds</strong> - Optimizing builds with Jenkins + Gradle</li>
-								<li><strong>Microservice</strong> - Microservice architecture with AWS, Docker, Spring
+								<li><strong>Frontend - </strong> Form improvements with GWT, HTML, JS, JQuery</li>
+								<li><strong>Backend - </strong> Core system development in Java + Custom Framework</li>
+								<li><strong>Database - </strong> DB management with PostgreSQL, Liquibase, Hibernate</li>
+								<li><strong>Integrations - </strong> Integrations with Nordiska, PayByLink, Bisnode, Creditsafe</li>
+								<li><strong>Microservice - </strong> Extending Microservice architecture with AWS, Docker
+								<li><strong>FTP files - </strong> FTP file transfer and payment processing.
+								<li><strong>Builds - </strong> Optimizing builds with Jenkins + Gradle</li>
 								</li>
 							</ul>
 						</div>
@@ -444,9 +469,9 @@
 			<div class="panelRight">
 
 				<div class="panelImageRow">
-					<img src="images/Other/pic1.png" style="background:rgb(76, 46, 0); max-width: 33%;" />
-					<img src="images/Other/pic2.png" style="background:rgb(49, 6, 0); max-width: 33%;" />
-					<img src="images/Other/pic3.png" style="background:rgb(29, 0, 41); max-width: 33%;" />
+					<img src="images/Other/logo1_mini.png" style="max-width: 33%;" />
+					<img src="images/Other/logo2_mini.png" style="max-width: 33%;" />
+					<img src="images/Other/logo3_mini.png" style="max-width: 33%;" />
 				</div>
 
 				<div class="panelRightContent">
@@ -456,20 +481,20 @@
 							<strong class="boxTitleText">Description</strong>
 						</div>
 						<div class="boxContent">
-							<p>Previous employment in multiple Java Enterprise companies in Latvia.</p>
+							<p>Previous employment in various tech companies in Latvia.</p>
 							<p>
-								Working for various different commercial projects. Most projects were large-scale web-applications with great impact on Latvias economy.
+								Participating in multiple Java Enterprise projects.<br>
+								Most projects were large-scale monolythic web applications.
 							</p>
 							<p>
-								Mostly similar tech-stack in all projects:<br>
-								Front-end improvements with HTML / JS / CSS / JQuery.<br>
-								Back-end improvements with Java / Hibernate / Spring<br>
-								Most projects used custom frameworks for loading / managing Java classes<br>
-								Builds with Maven / Gradle / Ant<br>
-								Usually hosted on Linux Tomcat servers or similar<br>
+								Gained valuable experience working with core Java technologies,<br>
+								builds, versioning, deployments and optimization.
 							</p>
 							<p>
-								Most projects were large monolyths with complex rigid structures, however the industry started moving towards microtransaction architecture.
+								Most projects also had complex database structure in either Oracle or Postgres, which allowed me to become familiar with DB optimization, indexing, data-types and procedures.
+							</p>
+							<p>
+								Each project had one or more REST services leading to good understanding of data-flow, TCP, APIs, JSONs, common issues and best practices.
 							</p>
 							<p>
 								Full details can be found in my CV.
@@ -483,12 +508,12 @@
 						</div>
 						<div class="boxContent">
 							<ul>
-								<li><strong>Back-End</strong> - Java, Hibernate, Spring</li>
-								<li><strong>Front-End</strong> - Improvements with HTML, JS, JQuery</li>
-								<li><strong>WebService</strong> - Various web-services with REST, SOAP</li>
-								<li><strong>Database</strong> - Oracle, PL/SQL, Liquibase</li>
-								<li><strong>Reports</strong> - PDF reports, Google charts</li>
-								<li><strong>Servers</strong> - Managing Linux Tomcat web servers</li>
+								<li><strong>Frontend - </strong> GWT, HTML, JS, JQuery, JSP, JSF</li>
+								<li><strong>Backend - </strong> Java, JDBC, Hibernate, Lombok</li>
+								<li><strong>Database - </strong> Oracle, PL/SQL, PostgreSQL</li>
+								<li><strong>Services - </strong> Various web-services with REST, SOAP</li>
+								<li><strong>Reports - </strong> PDF reports, Google charts, CSV files</li>
+								<li><strong>Servers - </strong> Tomcat, Weblogic, JBOSS</li>
 							</ul>
 						</div>
 					</div>
