@@ -227,7 +227,8 @@
 							<strong class="boxTitleText">Description</strong>
 						</div>
 						<div class="boxContent">
-							<p>Creating real-estate search engine.</p>
+							<p>Creating real-estate search engine:  <a href="https://housify.lv/">Housify</a>  
+							</p>
 							<p>
 								Main goal of the system is to collect real-estate posters from multiple websites and display them in simple unified format.
 							</p>
@@ -543,7 +544,7 @@
 
 				<div class="panelRightContent">
 
-					<div class="boxRight" id="boxRightMargin">
+					<div class="boxRight" id="boxRightMargin" style="padding-bottom: 20px;">
 						<div class="boxTitle">
 							<strong class="boxTitleText">Contact</strong>
 						</div>
