@@ -3,8 +3,14 @@
     src: url("Comfortaa.ttf");
 }
 
+@font-face {
+    font-family: "MainFont";
+    src: url("AlmaMono-Regular.ttf");
+  }
+
 body {
-	font-family: "CustomFontTitle";
+	font-family: "MainFont";
+	letter-spacing:-2px;
 	
 	/*
 	background: linear-gradient( 90deg, #e6e6e6, #eff 50%);
@@ -84,7 +90,8 @@ body {
 
 .panelLeftTitle {
 	
-	
+	font-family: "CustomFontTitle";
+	letter-spacing:0px;
 	position:relative;
 	background: #eee;
 /*
@@ -124,6 +131,7 @@ box-shadow: 5px 5px 9px rgba(0,0,0, 0.15);
     right: 40px;
     top: 40px;
     font-family: "CustomFontTitle";
+    letter-spacing:0px;
     font-size: 69px;
     font-weight: 700;
     line-height: 0.98;
@@ -146,6 +154,7 @@ position: absolute;
     right: 40px;
     top: 40px;
     font-family: "CustomFontTitle";
+    letter-spacing:0px;
     font-size: 69px;
     font-weight: 700;
     line-height: 0.98;
@@ -163,10 +172,12 @@ position: absolute;
 }
 
 .textTitle {
+
 	position: absolute;
 	right: 40px;
 	top: 40px;
 	font-family: "CustomFontTitle";
+	letter-spacing:0px;
 	font-size: 69px;
 	font-weight: 700;
 	line-height: 0.98;
@@ -190,6 +201,7 @@ position: absolute;
     right: 40px;
     top: 120px;
     font-family: "CustomFontTitle";
+    letter-spacing:0px;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
@@ -295,7 +307,8 @@ position: absolute;
 }
 
 .boxTitle {
-	
+	font-family: "CustomFontTitle";
+	letter-spacing:0px;
 	padding-bottom:2px;
 	border-bottom: 3px dashed #0086a599;
 /*
@@ -327,6 +340,7 @@ position: absolute;
 
 .boxContent {
 	line-height: 120%;
+	font-size: 18px;
 
 
 	-webkit-user-select: text;  
@@ -365,7 +379,7 @@ position: absolute;
 	border-radius:20px;
 	box-shadow: 4px 4px 8px rgba(0,0,0,0.15);
 	margin-top:15px;
-	min-width: 298px;
+	/*min-width: 298px;*/
 }
 
 .hexIconContainer {
@@ -390,8 +404,9 @@ position: absolute;
 .hexContent {
 	display: inline-block;
 	position: absolute;
-	top:20px;
-	width: calc(100% - 120px);
+	top:14px;
+	width: calc(100% - 100px);
+	font-size: 18px;
 
 	-webkit-user-select: none; 
 	-moz-user-select: none;  

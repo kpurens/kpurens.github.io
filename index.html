@@ -54,7 +54,7 @@
 
 						<div class="boxContent">
 
-							<div class="hexContainer" style="margin-right:15px">
+							<div class="hexContainer" style="margin-right:10px">
 								<div class="hexIconContainer">
 									<img src="images/hex2.png" class="hexIconBg" />
 									<img src="images/Skills/pic0.png" class="hexIcon" />
@@ -88,7 +88,7 @@
 
 						<div class="boxContent">
 
-							<div class="hexContainer" style="margin-right:15px">
+							<div class="hexContainer" style="margin-right:10px">
 								<div class="hexIconContainer">
 									<img src="images/hex2.png" class="hexIconBg" />
 									<img src="images/Skills/pic1.png" class="hexIcon" />
@@ -96,7 +96,7 @@
 
 								<div class="hexContent">
 									<div class="hexContentTitle">Languages</div>
-									<div class="hexContentBody">Java, C#, SQL,<br>HTML, CSS, JS</div>
+									<div class="hexContentBody">Java, C#, C++</div>
 								</div>
 							</div>
 
@@ -112,7 +112,7 @@
 								</div>
 							</div>
 
-							<div class="hexContainer" style="margin-right:15px">
+							<div class="hexContainer" style="margin-right:10px">
 								<div class="hexIconContainer">
 									<img src="images/hex2.png" class="hexIconBg" />
 									<img src="images/Skills/pic8.png" class="hexIcon" />
@@ -136,7 +136,7 @@
 								</div>
 							</div>
 
-							<div class="hexContainer" style="margin-right:15px">
+							<div class="hexContainer" style="margin-right:10px">
 								<div class="hexIconContainer">
 									<img src="images/hex2.png" class="hexIconBg" />
 									<img src="images/Skills/pic9.png" class="hexIcon" />
@@ -188,6 +188,92 @@
 		</div>
 
 		
+
+
+		<!-- CudaSecp -->
+		<div class="panelMain">
+			<div class="panelLeft">
+
+				<div class="panelLeftTitle">
+
+					<div class="leftSideContainer">
+						<img src="images/CudaSecp/icon.png" class="leftSideImage" />
+						<div class="leftSideShadow"></div>
+					</div>
+
+					<p class="textTitle">CudaSecp</p>
+					<p class="textSubt">Cuda Application</p>
+					<p class="textTime">Apr 2022 - Aug 2022</p>
+				</div>
+
+			</div>
+			<div class="panelRight">
+				<div class="panelImageRow">
+					<img src="images/CudaSecp/title_mini.png" data-full="images/CudaSecp/title.png" class="rightSideImage, clickImage" />
+				</div>
+				<div class="panelImageRow">
+					<img src="images/CudaSecp/perf_mini.png" data-full="images/CudaSecp/perf.png" class="rightSideImage, clickImage" />
+				</div>
+				<div class="panelRightContent">
+
+					<div class="boxRight" id="boxRightMargin">
+						<div class="boxTitle">
+							<strong class="boxTitleText">Description</strong>
+						</div>
+						<div class="boxContent">
+							<p>Cuda Secp256k1 Brain Wallet Recovery Tool.<br>
+							   Performs Secp256k1 Point Multiplication directly on GPU.<br>
+							   Can be used for efficient brain-wallet or mnemonic-phrase recovery. </p>
+							<p>
+								Github repository: https://github.com/kpurens/CudaBrainSecp
+								Most of the functionality / usage is described in there.
+							</p>
+							<p>
+
+								Each thread in GPU kernel executes several steps in order to recover private keys:
+								<ol type = "1">
+									<li>Joins two input words taken from input wordlists</li>
+									<li>Hashes seed using Sha256 hashing function</li>
+									<li>Splits private key into 16 chunks (2 bytes each)</li>
+									<li>Loads chunk points from pre-computed GTable</li>
+									<li>Adds these elliptic curve points together</li>
+									<li>Computes modular inverse - obtaining 64-byte public key</li>
+									<li>Calculates compressed / uncompressed Hash160 values</li>
+									<li>Searches last 8 bytes of Hash160 in the target buffer</li>
+									<li>Returns found private keys in output buffer</li>
+								 </ol>
+							</p>
+						</div>
+					</div>
+
+					<div class="boxRight">
+						<div class="boxTitle">
+							<strong class="boxTitleText">Technologies</strong>
+						</div>
+						<div class="boxContent">
+							<ul>
+								<li>C++ / Makefiles / Configuration</li>
+								<li>Cuda Computing / GPU Kernel code</li>
+								<li>Secp256k1 Point Multiplication</li>
+								<li>Seeds / Private Keys / Public Keys</li>
+								<li>Hashing Functions (Sha256 / RIPEMD)</li>
+								<li>Crypto Addresses / Encoding / Hash160</li>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+
+
+
 			<!-- Housify -->
 		<div class="panelMain">
 			<div class="panelLeft">
@@ -550,7 +636,7 @@
 						</div>
 						<div class="boxContent">
 
-							<div class="hexContainer" style="margin-right:15px">
+							<div class="hexContainer" style="margin-right:10px; width:100%;">
 								<div class="hexIconContainer">
 									<img src="images/hex2.png" class="hexIconBg" />
 									<img src="images/Contact/iconMail.png" class="hexIcon" />
@@ -559,18 +645,6 @@
 								<div class="hexContent">
 									<div class="hexContentTitle">Email</div>
 									<div class="hexContentBody" >karlis.purens@gmail.com</div>
-								</div>
-							</div>
-
-							<div class="hexContainer" >
-								<div class="hexIconContainer">
-									<img src="images/hex2.png" class="hexIconBg" />
-									<img src="images/Contact/iconPhone.png" class="hexIcon" />
-								</div>
-
-								<div class="hexContent">
-									<div class="hexContentTitle">Phone</div>
-									<div class="hexContentBody" >(371) 27078876</div>
 								</div>
 							</div>
 
