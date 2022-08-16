@@ -178,9 +178,9 @@ position: absolute;
 	top: 40px;
 	font-family: "CustomFontTitle";
 	letter-spacing:0px;
-	font-size: 69px;
+	font-size: 64px;
 	font-weight: 700;
-	line-height: 0.98;
+	/*line-height: 0.98;*/
 	margin: 0px;
 	text-transform: none;
 	text-shadow: 2px 2px 5px rgb(213, 253, 255);
