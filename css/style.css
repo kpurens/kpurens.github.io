@@ -379,6 +379,7 @@ position: absolute;
 	border-radius:20px;
 	box-shadow: 4px 4px 8px rgba(0,0,0,0.15);
 	margin-top:15px;
+	overflow:hidden;
 	/*min-width: 298px;*/
 }
 
@@ -427,7 +428,7 @@ position: absolute;
 }
 
 .hexContentBody {
-	line-height: normal;
+	line-height: 18px;
 
 	-webkit-user-select: text;  
 	-moz-user-select: text;
