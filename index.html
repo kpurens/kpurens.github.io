@@ -96,7 +96,7 @@
 
 								<div class="hexContent">
 									<div class="hexContentTitle">Languages</div>
-									<div class="hexContentBody">Java, C#, C++</div>
+									<div class="hexContentBody">Java, C#, C++<br>JS, Bash, Shell</div>
 								</div>
 							</div>
 
@@ -120,7 +120,7 @@
 
 								<div class="hexContent">
 									<div class="hexContentTitle">Frameworks</div>
-									<div class="hexContentBody">Spring, Docker,<br>JSF, GWT, Struts</div>
+									<div class="hexContentBody">Spring, Docker,<br>JSF, GWT, Cuda</div>
 								</div>
 							</div>
 
@@ -212,7 +212,8 @@
 					<img src="images/CudaSecp/title_mini.png" data-full="images/CudaSecp/title.png" class="rightSideImage, clickImage" />
 				</div>
 				<div class="panelImageRow">
-					<img src="images/CudaSecp/perf_mini.png" data-full="images/CudaSecp/perf.png" class="rightSideImage, clickImage" />
+					<img src="images/CudaSecp/ER_v1_thumb.png" data-full="images/CudaSecp/ER_v1.png" class="clickImage" style="max-width: 50%" />
+					<img src="images/CudaSecp/Flow_v1_thumb.png" data-full="images/CudaSecp/Flow_v1.png" class="clickImage" style="max-width: 50%" />
 				</div>
 				<div class="panelRightContent">
 
@@ -221,19 +222,16 @@
 							<strong class="boxTitleText">Description</strong>
 						</div>
 						<div class="boxContent">
-							<p>Cuda Secp256k1 Brain Wallet Recovery Tool.<br>
+							<p>Cuda Secp256k1 Wallet / Account Recovery Tool.<br>
 							   Performs Secp256k1 Point Multiplication directly on GPU.<br>
-							   Can be used for efficient brain-wallet or mnemonic-phrase recovery. </p>
-							<p>
-								Github repository: https://github.com/kpurens/CudaBrainSecp
-								Most of the functionality / usage is described in there.
+							   Can be used for efficient brain-wallet or mnemonic-phrase recovery. 
 							</p>
 							<p>
-
-								Each thread in GPU kernel executes several steps in order to recover private keys:
+								Multi-threaded client-side written in C++.<br>
+								Main thread manages client-server communication.<br>
+								GPU thread executes several commands on each cuda core:<br>
 								<ol type = "1">
-									<li>Joins two input words taken from input wordlists</li>
-									<li>Hashes seed using Sha256 hashing function</li>
+									<li>Performs Sha256 hashing function on input seed</li>
 									<li>Splits private key into 16 chunks (2 bytes each)</li>
 									<li>Loads chunk points from pre-computed GTable</li>
 									<li>Adds these elliptic curve points together</li>
@@ -242,6 +240,15 @@
 									<li>Searches last 8 bytes of Hash160 in the target buffer</li>
 									<li>Returns found private keys in output buffer</li>
 								 </ol>
+							</p>
+							<p>
+								Clients can be quickly deployed as Docker images. <br>
+								Java Spring server synchronizes multiple clients. <br>
+								Multiple endpoints are exposed as REST services. <br>
+								Authorization endpoint manages client credentials / tokens. <br>
+								File endpoint allows downloading binary target hash files. <br>
+								Sync endpoint synchronizes next and done words. <br>
+								PostgreSQL database + Spring JPA manages data storage. <br>
 							</p>
 						</div>
 					</div>
@@ -257,7 +264,8 @@
 								<li>Secp256k1 Point Multiplication</li>
 								<li>Seeds / Private Keys / Public Keys</li>
 								<li>Hashing Functions (Sha256 / RIPEMD)</li>
-								<li>Crypto Addresses / Encoding / Hash160</li>
+								<li>Docker / Rest-Services / Synchronization</li>
+								<li>Java / Spring / PostgreSQL / Scheduler</li>
 								</li>
 							</ul>
 						</div>
