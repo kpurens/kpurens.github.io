@@ -439,6 +439,28 @@ position: absolute;
 	user-select: text; 
 }
 
+.wrap {
+  width: 100%;
+  display: flex;
+  align-items: flex-start; /* prevents vertical stretching */
+}
+
+.cell {
+  flex: 100 1 0;
+  min-width: 0;
+}
+
+.cell img {
+  width: 100%;
+  height: auto;   /* keeps aspect ratio */
+  display: block;
+}
+
+
+
+
+
+
 
 
 
